@@ -1,0 +1,150 @@
+select distinct
+  id.identity_identifier,
+  id.Email_Address,
+  id.first_name,
+  id.date_of_birth_dt
+from Identity_Market_Data_DK id
+Join ent.devices_eu d on d.identity_identifier = id.identity_identifier
+
+/*Compulsory Checks*/
+WHERE id.database_opt_in = 'true'
+  AND id.global_opt_in = 'true'
+  AND id.consumer_type = 'CONSUMER'
+  AND id.login_name is not null
+  AND id.Email_Address is not null
+  AND d.status = 'ACTIVE'
+  AND d.device_codentify is NOT null
+  
+/*Targeting Oct birthday month users*/
+  AND MONTH(id.date_of_birth_dt) = MONTH (getdate()+1)
+
+ /*Exclude Hard bounce users*/
+  AND id.identity_identifier not in (
+    SELECT
+      SubscriberKey
+    FROM
+      _Bounce
+    WHERE
+      BounceCategory = 'Hard bounce'
+  )
+
+/*Exclusion one user*/
+   AND id.persona_identifier not in
+   (select persona_identifier from DK_Exclusion_DE_All_Campaigns)
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+Flavor Ban Campaign
+select distinct
+  id.identity_identifier,
+  id.Email_Address,
+  id.first_name,
+  seg.segment_value
+from Identity_Market_Data_DK id
+Join ent.devices_eu d on d.identity_identifier = id.identity_identifier
+Join ent.TD_Segments_Latest_EU seg on seg.identity_identifier = id.identity_identifier
+  
+/*Compulsory Checks*/
+WHERE id.database_opt_in = 'true'
+  AND id.global_opt_in = 'true'
+  AND id.consumer_type = 'CONSUMER'
+  AND id.login_name is not null
+  AND id.Email_Address is not null
+  AND d.status = 'ACTIVE'
+  AND d.device_codentify is NOT null
+  
+/*Adopter & hesitator & Dormant, Inactive check*/
+and seg.segment_value in ('Adopter','Hesitater','Dormant','Inactive')
+and seg.segment = 'current_lifestage_segment'
+  
+/*Exclude Hard bounce users*/
+  AND id.identity_identifier not in (
+    SELECT
+      SubscriberKey
+    FROM
+      _Bounce
+    WHERE
+      BounceCategory = 'Hard bounce'
+  )
+
+/*Exclusion one user*/
+   AND id.persona_identifier not in
+   (select persona_identifier from DK_Exclusion_DE_All_Campaigns)
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+Swap Volume 2
+select distinct
+  id.identity_identifier,
+  id.Email_Address,
+  id.sms_phone_number,
+  id.locale,
+  id.first_name
+from Identity_Market_Data_DK id
+join ent.devices_eu d on d.identity_identifier = id.identity_identifier
+Join ent.TD_Segments_Latest_EU seg on seg.identity_identifier = id.identity_identifier
+  
+/*Warrenty is active*/
+join (select distinct dev.identity_identifier, dev.end_of_warranty_date_dt,
+    ROW_NUMBER() OVER(partition by dev.identity_identifier order by dev.end_of_warranty_date_dt DESC) as rownum
+    from ent.Devices_EU dev) dev on id.identity_identifier = dev.identity_identifier
+
+/*Compulsory Checks*/
+WHERE dev.rownum = 1
+    AND id.database_opt_in = 'true'
+    AND id.global_opt_in = 'true'
+    AND id.consumer_type = 'CONSUMER'
+    AND id.login_name is not null
+    AND id.Email_Address is not null
+    AND CONVERT(date , dev.end_of_warranty_date_dt) > convert(date, getdate())
+    AND d.device_version in ('3.1', '3.1U')
+    AND d.status = 'ACTIVE'
+    AND d.device_codentify is NOT null
+
+/*Adopter & hesitator & Dormant, Inactive check*/
+  and seg.segment_value in ('Adopter','Hesitater','Dormant', 'Inactive')
+  and seg.segment = 'current_lifestage_segment'
+  
+/*Exclude hard bounce users*/
+    AND id.identity_identifier not in (
+    SELECT
+      SubscriberKey
+    FROM
+      _Bounce
+    WHERE
+      BounceCategory = 'Hard bounce'
+  )
+  
+/*Exclusion one user*/
+    AND id.persona_identifier not in
+    (select persona_identifier from DK_Exclusion_DE_All_Campaigns)
+
+/*Purchased,registered a device less than 23 month ago*/
+    AND exists
+    (select 1 from ent.devices_eu d1
+    where d1.identity_identifier = id.identity_identifier
+    AND (convert(date, d1.purchase_date_dt) >= convert(date, getdate() -700)
+    or convert(date, d1.registration_device_date_dt) >= convert(date, getdate() -700)))
+   
+/*Exclude starter users(registered a device less than 30 days ago)*/
+    AND id.identity_identifier NOT IN
+    (SELECT identity_identifier FROM DK_Starter_Journey_Target where DATEDIFF(day, created_date_dt, getdate())<=30)
