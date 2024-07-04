@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="x-apple-disable-message-reformatting">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<title>Strokovno vzdrževanje vaše lil SOLID Ez naprave</title>
+<!--[if mso]>
+<style>
+table, td, span, div, p, h1, h2, h3, a {
+font-family: sans-serif !important;
+}
+table, tr, td { border-collapse: collapse; }
+tr { font-size:0px; line-height:0px; border-collapse: collapse; border-spacing: 0; }
+</style>
+<![endif]-->
+<!-- app css -->
+<style>
+html,
+body {
+margin: 0;
+padding: 0;
+height: 100% !important;
+width: 100% !important;
+background-color: #fbfaf8;
+color: #3F4053;
+font-family: sans-serif;
+}
+
+body {
+font-size: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+* {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+table,
+td {
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+
+table {
+border-spacing: 0 !important;
+}
+
+table {
+border-collapse: collapse;
+margin: 0 auto;
+}
+
+img {
+-ms-interpolation-mode: bicubic;
+}
+
+img {
+border: 0 !important;
+outline: none !important;
+text-decoration: none !important;
+vertical-align: top;
+}
+
+a {
+color: inherit !important;
+}
+
+.email-container {
+width: 100%;
+max-width: 480px;
+}
+
+td,
+tr,
+img {
+padding: 0px;
+margin: 0px;
+border: none;
+}
+
+td a,
+p a {
+color: inherit;
+}
+
+[data-outlook-cycle] [x-apple-data-detectors-type="calendar-event"] {
+color: inherit !important;
+-webkit-text-decoration-color: inherit !important;
+text-decoration-color: inherit !important;
+text-decoration: none !important;
+}
+
+@media screen and (max-device-width: 480px),
+screen and (max-width: 480px) {
+.email-wrapper {
+padding-top: 20px !important;
+}
+
+.email-container {
+width: 100% !important;
+}
+
+.width-100 {
+width: 100%;
+}
+
+.mobile-break {
+display: block !important;
+}
+
+.headline-17 {
+min-height: 0vw !important;
+font-size: calc(11px + 1vw) !important;
+line-height: calc(17px + 1vw) !important;
+}
+
+.headline-20 {
+min-height: 0vw !important;
+font-size: calc(14px + 1vw) !important;
+line-height: calc(20px + 1vw) !important;
+}
+
+.headline-24 {
+min-height: 0vw !important;
+font-size: calc(18px + 1vw) !important;
+line-height: calc(24px + 1vw) !important;
+}
+
+.headline-30 {
+min-height: 0vw !important;
+font-size: calc(24px + 1vw) !important;
+line-height: calc(30px + 1vw) !important;
+}
+
+.headline-40 {
+min-height: 0vw !important;
+font-size: calc(36px + 1vw) !important;
+line-height: calc(44px + 1vw) !important;
+}
+
+.headline-60 {
+min-height: 0vw !important;
+font-size: calc(47px + 1vw) !important;
+line-height: calc(50px + 1vw) !important;
+}
+
+.copytext-15 {
+min-height: 0vw !important;
+font-size: calc(10px + 1vw) !important;
+line-height: calc(18px + 1vw) !important;
+}
+
+.copytext-10 {
+min-height: 0vw !important;
+font-size: calc(7px + 1vw) !important;
+line-height: calc(13px + 1vw) !important;
+}
+
+.copytext-12 {
+min-height: 0vw !important;
+font-size: calc(8px + 1vw) !important;
+line-height: calc(13px + 1vw) !important;
+}
+
+.copytext-13 {
+min-height: 0vw !important;
+font-size: calc(9px + 1vw) !important;
+line-height: calc(14px + 1vw) !important;
+}
+
+.footnote-12 {
+min-height: 0vw !important;
+font-size: calc(8px + 1vw) !important;
+line-height: calc(14px + 1vw) !important;
+}
+
+.footnote-10 {
+min-height: 0vw !important;
+font-size: calc(6px + 1vw) !important;
+line-height: calc(12px + 1vw) !important;
+}
+
+.footerlinks-14 {
+min-height: 0vw !important;
+font-size: calc(9px + 1vw) !important;
+line-height: calc(17px + 1vw) !important;
+}
+
+.responsive-img {
+width: 100% !important;
+height: auto !important;
+}
+
+.referCode-img-lr-td {
+width: 30% !important;
+}
+
+.referCode-img-lr-td-fs {
+width: 32.4% !important;
+}
+}
+</style>
+<!-- // app css -->
+%%=ContentBlockByKey("unsubscribe_v2")=%%
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"
+style="margin:0; padding:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;">
+<center style="width:100%; table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+<table bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%"
+style="border-collapse:collapse;">
+<tr>
+<td class="email-wrapper" valign="top" align="center" style="padding:40px 0 0 0;">
+<!-- Visually Hidden Preheader Text : BEGIN -->
+<div
+style="display:none;font-size:1px;color:#222222;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide: all;">
+
+</div>
+<!-- Visually Hidden Preheader Text : END -->
+
+<!--[if mso]>
+<center>
+<table><tr><td width="480">
+<![endif]-->
+<div style="max-width:480px; margin:0 auto;">
+
+
+
+<!-- Email wrapper : BEGIN -->
+<table border="0" width="480" cellpadding="0" cellspacing="0" align="center"
+style="width:480px; margin: auto; background: #fffdfb;" bgcolor="#fffdfb" class="email-container">
+<!-- Header: iqos, veev, club or heets -->
+<!-- Header : BEGIN -->
+<table align="center" width="480" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td cellpadding="0" cellspacing="0" bgcolor="#fffdfb" align="right" width="253" style="line-height: 0px; background-image: url('bg.jpg'); padding: px 0px 0px;"><a href="https://hr.iqos.com/hr?sag=0" alias="header_iqos" target="_blank" style="text-decoration: none; float: left; line-height: 0px;"> <img src="https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/bcad2564-a383-40f2-8574-c63f347924e0.png" width="253" height="" border="0" style="display: block; line-height: 0px; height: auto;"> </a></td>
+<td cellpadding="0" cellspacing="0" bgcolor="#fffdfb" align="left" width="227" style="line-height: 0px; background-image: url('bg.jpg');"><a href="https://hr.iqos.com/hr?sag=0" alias="header_podpora_storitve" target="_blank" style="text-decoration: none; float: left; line-height: 0px;"> <img src="https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/c12d164a-d31a-42a8-b414-75e8a5af6e9a.jpg" width="227" height="" border="0" style="display: block; line-height: 0px;"> </a></td>
+</tr>
+</table>
+
+
+
+
+
+
+<!-- Header : END -->
+
+<tr>
+<td>
+<!-- Main Email Body : BEGIN -->
+<table class="width-100" style="background: #fffdfb" bgcolor="#fffdfb" border="0" width="480"
+cellpadding="0" cellspacing="0">
+<!-- content builder : BEGIN -->
+<tr>
+<td style='padding:0;' align='center'>
+<a href="https://si.iqos.com/sl/storitve/podpora/lil-solid-ez/celovita-storitev?sag=0" alias="Hero_img"><img class='responsive-img' src='https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/d752743f-2751-4eed-b88d-4e584697cb44.png' alt='' width='480' border='0'
+align='middle'></a>
+
+
+</td>
+</tr>
+<tr>
+<td style='padding:27px 0 40px 0; color:#fffbf1; background:#0055a7;'>
+
+<table width="90%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td width='100%' style='padding:0;' valign='bottom' valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td class='headline-24'
+style='padding:5px 0 0px; font-family: IQOS Sans, Inter, Arial, sans-serif; font-weight: bold; font-size: 32px; line-height:42px; mso-line-height-rule: exactly; color:#fffbf1;'
+align='center'>
+
+
+Celovita storitev
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+</table>
+</td>
+
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr>
+<td>
+<table width="100%" align="center">
+<tr>
+<td class='copytext-15'
+style='padding:50px 60px 20px; font-family: IQOS Sans, Inter, Arial, sans-serif; font-size: 15px; line-height:24px; mso-line-height-rule: exactly; color:#34303D;'
+align='center' align="center">
+Naša Celovita storitev je brezplačna storitev, ki vam v Trgovinah z brezdimnimi izdelki zagotavlja strokovno vzdrževanje vaše lil SOLID Ez naprave in tako pomaga, da napravo v dobrem stanju ohranite dlje časa. Storitev je opravljena v približno 30 minutah.
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0px 0">
+<table style="background:#fffdfb" width="100%" border="0" cellspacing="0" cellpadding="0"
+align="center">
+<tr>
+<td style="font-size:14px; letter-spacing:0.25px; color:#fffdfb; text-align:center">
+<div>
+<!--[if mso]>
+<v:roundrect xmlns_v="urn:schemas-microsoft-com:vml" xmlns_w="urn:schemas-microsoft-com:office:word" href="https://si.iqos.com/sl/storitve/podpora/lil-solid-ez/celovita-storitev?sag=0" alias="celovita" style="height:45px;v-text-anchor:middle;width:160px;" arcsize="50%" strokecolor="#1253a1" fillcolor="#1253a1">
+<w:anchorlock/>
+<center style="color:#fffdfb;font-family:Helvetica, Arial,sans-serif;font-size:16px;">Izvedite več</center>
+</v:roundrect>
+<![endif]-->
+<a href="https://si.iqos.com/sl/storitve/podpora/lil-solid-ez/celovita-storitev?sag=0" alias="CTA_Izvedite" height="38px"
+style="color:#fffdfb;letter-spacing:0.25px;background-color:#1253a1;border:1px solid #1253a1;border-radius:20px;display:inline-block;font-family:IQOS Sans, Inter, Arial, sans-serif;font-size:14px;line-height:38px;text-align:center;text-decoration:none;width:157px;-webkit-text-size-adjust:none;mso-hide:all;">Izvedite več</a>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" align="center">
+<tr>
+<td class='headline-24'
+style='padding:60px 60px 0px; font-family: IQOS Sans, Inter, Arial, sans-serif; font-weight: bold; font-size: 24px; line-height:30px; mso-line-height-rule: exactly; color:#34303d;'
+align='center' align="center">
+
+Celovita storitev za dolgotrajnejše optimalno delovanje lil SOLID Ez naprave. 
+
+</td>
+</tr> 
+</table>
+</td>
+</tr>
+
+
+<td style='padding:40px 0 0;'>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td width='50%' style='padding:0;' valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td style='padding:0 10px;' align='center' vertical-align:middle>
+
+<a href="https://si.iqos.com/sl/storitve/podpora/lil-solid-ez/celovita-storitev?sag=0" alias="device_2" alias="strokovno">
+<img class='responsive-img' src='https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/0bf42b96-3829-4c7e-82ff-f64aa4faecc8.jpg' alt='' width='210' border='0'
+align='middle'>
+</a>
+
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td>
+<td width='50%' style='padding:0 10px;' valign='top' valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td
+style='padding:0 0 10px; font-family: IQOS Sans, Inter, Arial, sans-serif; font-size:17px; font-weight: bold; line-height:24px; color:#3c3c3b;'
+align='left'>
+
+Strokovno čiščenje naprave
+
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td
+style='padding:0; font-family:Inter, sans-serif; font-size: 15px; line-height:24px; mso-line-height-rule: exactly; color:#3F4053; vertical-align:middle;'
+align='left'>
+
+Napravo bomo strokovno očistili in s tem zagotovili optimalen pretok zraka.
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td style='padding:50px 0 0;'>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td width='50%' style='padding:0 10px;' valign='top' valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td
+style='padding:0 0 10px; font-family: IQOS Sans, Inter, Arial, sans-serif; font-size:17px; font-weight: bold; line-height:24px; color:#3c3c3b;'
+align='left'>
+
+Učinkovita storitev v Trgovinah z brezdimnimi izdelki
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td
+style='padding:0; font-family:Inter, sans-serif; font-size: 15px; line-height:24px; mso-line-height-rule: exactly; color:#3F4053; vertical-align:middle;'
+align='left'>
+
+Celovito storitev lahko opravite v približno 30 minutah v Trgovinah z brezdimnimi izdelki. 
+
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td>
+<td width='50%' style='padding:0;' valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td style='padding:0 10px;' align='center' vertical-align:middle>
+
+<a href="https://si.iqos.com/sl/trgovine?sag=0" alias="device_1">
+<img class='responsive-img' src='https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/d6bf84d2-2630-49e3-a6fc-584e514f6347.png' alt='' width='210' border='0'
+align='middle'>
+</a>
+
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<!-- <tr>
+<td style='padding:50px 0 0;'>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td width='50%' style='padding:0;' valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td style='padding:0 10px 0 25px;' align='center' vertical-align:middle>
+
+<img class='responsive-img' src='https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/aa2b0437-cdee-4fa7-9cd7-33e5f43eb744.png' alt='' width='210' border='0'
+align='middle'>
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td>
+<td width='50%' style='padding:0 25px 0;' valign='top' valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td
+style='padding:0 0 10px; font-family: IQOS Sans, Inter, Arial, sans-serif; font-size:17px; font-weight: bold; line-height:30px; color:#3c3c3b;'
+align='left'>
+
+Učinkovita storitev v Trgovinah z brezdimnimi izdelki
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td
+style='padding:0; font-family:Inter, sans-serif; font-size: 15px; line-height:24px; mso-line-height-rule: exactly; color:#3F4053; vertical-align:middle;'
+align='left'>
+
+Celovito storitev lahko opravite v približno 30 minutah v Trgovinah z brezdimnimi izdelki. 
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr> -->
+<tr>
+<td style='padding:0px 0 0;'>
+
+<table width="90%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td width='90%' style='padding:0 0 0;background:#fffdfb;' valign="middle">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td style='padding:0; background-color: #fffdfb;' height='43'>
+
+
+
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+<tr>
+<td style="padding:0 10px 0 0px">
+<table style="background:#fffdfb" width="100%" border="0" cellspacing="0"
+cellpadding="0" align="center">
+<tr>
+<td
+style="font-size:14px; letter-spacing:0.25px; color:#fffdfb; text-align:center">
+<div>
+<!--[if mso]>
+<v:roundrect xmlns_v="urn:schemas-microsoft-com:vml" xmlns_w="urn:schemas-microsoft-com:office:word" href="https://si.iqos.com/sl/trgovine?sag=0" alias="trgovine" style="height:45px;v-text-anchor:middle;width:190px;" arcsize="50%" strokecolor="#1253a1" fillcolor="#1253a1">
+<w:anchorlock/>
+<center style="color:#fffdfb;font-family:Helvetica, Arial,sans-serif;font-size:16px;">Prodajna mesta</center>
+</v:roundrect>
+<![endif]-->
+<a href="https://si.iqos.com/sl/trgovine?sag=0" alias="CTA_Prodajna" height="38px"
+style="color:#fffdfb;letter-spacing:0.25px;background-color:#1253a1;border:1px solid #1253a1;border-radius:20px;display:inline-block;font-family: IQOS Sans, Inter, Arial, sans-serif;font-size:14px;line-height:38px;text-align:center;text-decoration:none;width:180px;-webkit-text-size-adjust:none;mso-hide:all;">Prodajna mesta</a>
+</div>
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<!-- FOOTER AND HEALTH WARNING START FOOTER AND HEALTH WARNING STARTFOOTER AND HEALTH WARNING STARTFOOTER AND HEALTH WARNING STARTFOOTER AND HEALTH WARNING START -->
+
+
+<tr>
+<td style="padding:60px 60px 0;">
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody>
+<tr>
+<td style="padding:0 0 0; border:2px solid #34303d;" valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody>
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody>
+<tr>
+<td
+style="padding:6px 20px; font-family: IQOS Sans, Inter, Arial, sans-serif; font-size:15px; line-height:20px; color:#34303d;"
+align="center">
+
+
+<b>Izdelek ni brez tveganja in omogoča dovajanje nikotina, ki povzroča
+zasvojenost. <br>
+Namenjen je samo polnoletnim osebam.
+</b>
+
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</td>
+</tr>
+
+
+<tr>
+<td
+style="background:#fffdfb; padding:20px 0 30px; font-family: 'IQOS Sans', 'Inter', Arial, sans-serif; font-weight: normal; font-size: 22px; line-height: 28px; letter-spacing: 0; color: #3F4053; text-align: center;">
+lil ekipa
+</td>
+</tr>
+<!-- Footer : BEGIN -->
+<tr>
+<td
+style="background-color: #34303D; letter-spacing: 0.25px; padding:30px 10px 0; vertical-align:top;"
+valign="top" align="center">
+<table cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td style="padding:0 30px 0 0;" align="center">
+<a href="https://si.iqos.com/sl/storitve/podpora/pogosta-vprasanja/uporaba-lil-solid-ez?sag=0" alias="FAQ_footer"
+target="_blank" class="footerlinks-14"
+style="font-family: 'IQOS Sans', 'Inter', Arial, sans-serif; font-size: 14px; line-height: 24px; color: #ffffff; text-decoration:none;">
+<font color="#ffffff">Pogosta vprašanja</font>
+</a>
+</td>
+
+<td style="padding:0 30px 0 0;" align="center">
+<a href="https://si.iqos.com/sl/trgovine?sag=0" alias="Store_locator_footer" target="_blank" class="footerlinks-14"
+style="font-family: 'IQOS Sans', 'Inter', Arial, sans-serif; font-size: 14px; line-height: 24px; color: #ffffff; text-decoration:none;">
+<font color="#ffffff">Prodajna
+mesta</font>
+</a>
+</td>
+<td style="padding:0;" align="center">
+<a href="https://si.iqos.com/sl/storitve/podpora/kontakt?sag=0" alias="Contact_us_footer" target="_blank"
+class="footerlinks-14"
+style="font-family: 'IQOS Sans', 'Inter', Arial, sans-serif; font-size: 14px; line-height: 24px; color: #ffffff; text-decoration:none;">
+<font color="#ffffff">Kontaktirajte
+nas</font>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="background-color: #34303D; padding:30px 25px; vertical-align:middle;" valign="middle">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+<tr>
+<td width="50%" style="padding:0;" align="left">
+<a href="https://si.iqos.com/sl/lil-solid-ez-naprava?sag=0" alias="IQOS_footer">
+<img src="https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/605d5ce4-1b66-4843-a841-9ce178c1fa0a.png" alt="SOLID" height="45">
+</a>
+</td>
+<td width="50%" style="padding:0;" align="right" style="vertical-align:middle;">
+<table cellspacing="0" cellpadding="0" border="0" align="right">
+<tr>
+<td style="padding:0;" align="right">
+<a href="https://www.facebook.com/iqos.si" alias="Facebook_footer"><img src="https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/2b1d9232-8ffe-4515-87eb-e9486036c45e.png"
+alt="Facebook" width="23"></a>
+</td>
+<td style="padding:0 0 0 25px;" align="right">
+<a href="tel:0809696" alias="Call_us_footer"><img src="https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/8b4ab9b1-9e2b-4002-a85b-f4dc4cdc5001.png" alt="phone" width="23"></a>
+</td>
+<td style="padding:0 0 0 25px;" align="right">
+<a href="https://iqos.buzz/36Hc2VA" alias="Viber_footer"><img src="https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/adf9c2fa-0637-4922-aa42-d7a470c31ff6.png" alt="viber"
+width="23"></a>
+</td>
+<td style="padding:0 0 0 25px;" align="right">
+<a href="https://www.youtube.com/@iqos_si" alias="Youtube_footer"><img src="https://image.e.iqos.com/lib/fe3d15707564067e7d1070/m/1/72d1180d-104e-4b9c-8a1a-e41c98b82459.png"
+alt="youtube" width="28"></a>
+</td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Footer : END -->
+<!-- Dislcaimer : BEGIN -->
+<tr>
+<!-- Email Footer : BEGIN -->
+<td cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="footer-text"
+style="padding-left: 35px; padding-right: 35px; padding-top: 30px; width: 100%; font-size: 12px; font-family: IQOS, Inter, sans-serif; mso-height-rule: exactly; line-height: 16px; text-align: left; color: #828282; background: #f8f7f3;">
+To obvestilo je osebno in namenjeno izključno samo vam kot odraslemu uporabniku tobačnih
+izdelkov,
+rezidentu
+Republike Slovenije, ki je registriran v podatkovni zbirki Philip Morris Ljubljana
+d.o.o. Tega
+sporočila v nobenem primeru ne smete posredovati drugi osebi. Če ste sporočilo
+prejeli po
+pomoti, vas prosimo, da izvirno sporočilo in njegove priloge izbrišete, ne da bi jih
+prebrali,
+kopirali ali shranili. Kakršna koli reprodukcija in posredovanje tega sporočila je,
+brez
+ustreznega dovoljenja, prepovedana.
+</td>
+</tr>
+<tr>
+<td class="footer-text"
+style="padding-left: 35px; padding-right: 35px; padding-top: 20px; width: 100%;font-size: 12px; font-family: IQOS, Inter, sans-serif; mso-height-rule: exactly; line-height: 16px; text-align: left; color: #828282; background: #f8f7f3;">
+Če ne želite biti več registrirani v podatkovni zbirki podjetja Philip Morris
+Ljubljana d.o.o.,
+kontaktirajte Službo za podporo uporabnikom na brezplačni telefonski številki <a
+href="tel:080 96 96" alias="call_center_footer" style="color:#808080; text-decoration: underline!important;"
+xt="SPCLICK">080 96 96</a> ali se obrnite na 
+e-poštni naslov <a href="mailto:contact.si@iqos.com" alias="Email_footer" name="hr_email_email1"
+style="color:#808080; text-decoration: underline!important;"
+xt="SPEMAIL">contact.si@iqos.com</a>.
+</td>
+</tr>
+<tr>
+<td class="footer-text"
+style="padding-left: 35px; padding-right: 35px; padding-top: 20px; width: 100%;font-size: 12px; font-family: IQOS, Inter, sans-serif; mso-height-rule: exactly; line-height: 16px; text-align: left; color: #828282; background: #f8f7f3;">
+Če ne želite več prejemati nobenih informacij, povezanih z izdelki, ki jih
+proizvajajo ali dajejo na trg povezane družbe
+Philip Morris Ljubljana d.o.o., kliknite <a style="color: #828282;" target="_blank"
+href="%%=RedirectTo(@encparam_encode)=%%" alias="unsubscribe">tukaj</a>.
+</td>
+</tr>
+<tr>
+<td class="footer-text"
+style="padding-left: 35px; padding-right: 35px; padding-top: 20px; width: 100%;font-size: 12px; font-family: IQOS, Inter, sans-serif; mso-height-rule: exactly; line-height: 16px; text-align: left; color: #828282; background: #f8f7f3;">
+PHILIP MORRIS LJUBLJANA, storitveno podjetje, d. o. o. ID za DDV: SI55739172, Matična
+št.:
+5523869, Družba je registrirana pri Okrožnem sodišču v Ljubljani. Osnovni kapital:
+8.763 EUR in
+je v celoti vplačan.
+</td>
+</tr>
+<tr>
+<td class="footer-text"
+style="padding-left: 35px; padding-right: 35px; padding-bottom: 30px; padding-top: 20px; width: 100%;font-size: 12px; font-family: IQOS, Inter, sans-serif; mso-height-rule: exactly; line-height: 16px; text-align: left; color: #828282; background: #f8f7f3;">
+<a class="bottom-urls" href="https://si.iqos.com/sl/pravna-obvestilal?sag=0#pogoji-uporabe" alias="terms_and_conditions" 
+name="hr_email_tc"
+style="color: #828282; font-size: 12px; font-family: IQOS, Inter, sans-serif; text-decoration: underline!important;"
+target="_blank" xt="SPCLICK">POGOJI UPORABE</a>&nbsp;&nbsp;<a class="bottom-urls"
+href="https://si.iqos.com/sl/pravna-obvestilal?sag=0#obvestilo-o-varovanju-zasebnosti" alias="privacy_policy"
+name="hr_email_pn"
+style="color: #828282; font-size: 12px; font-family: IQOS, Inter, sans-serif; text-decoration: underline!important;"
+target="_blank" xt="SPCLICK">OBVESTILO
+O VAROVANJU ZASEBNOSTI</a>
+</td>
+</tr>
+</td>
+<!-- Email Footer : END -->
+</tr>
+
+
+<!-- FOOTER AND HEALTH WARNING END FOOTER AND HEALTH WARNING END FOOTER AND HEALTH WARNING END FOOTER AND HEALTH WARNING END FOOTER AND HEALTH WARNING END FOOTER AND HEALTH WARNING END FOOTER AND HEALTH WARNING END  -->
+<!-- Health Dislcaimer : END -->
+</table>
+<!-- Main Email Body : END -->
+</td>
+</tr>
+
+</table>
+<!-- Email wrapper : END -->
+
+
+</div>
+<!--[if mso]>
+</td></tr></table>
+</center>
+<![endif]-->
+
+</td>
+</tr>
+</table>
+</center>
+<custom name="opencounter" type="tracking"/>
+<custom name="usermatch" type="tracking" />
+</body>
+
+</html>
