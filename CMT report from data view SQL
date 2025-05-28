@@ -1,0 +1,40 @@
+SELECT
+    CMT_Update.Product_Title__c AS Name,
+    CMT_Update.CC AS CC_Recipient,
+    CMT_Update.BCC AS BCC_Recipient,
+    COUNT(DISTINCT _Sent.SubscriberID) AS Email_Sent,
+    COUNT(DISTINCT _Open.SubscriberID) AS Email_Opens,
+    COUNT(DISTINCT _Click.SubscriberID) AS Email_Clicks,
+    (COUNT(DISTINCT _Sent.SubscriberID) - COALESCE(COUNT(DISTINCT _Bounce.SubscriberID), 0)) AS Email_Delivered,
+    ROUND(COUNT(DISTINCT _Click.SubscriberID) * 100.0 / NULLIF(COUNT(DISTINCT _Sent.SubscriberID), 0), 2) AS Percentage_Click,
+    ROUND(COUNT(DISTINCT _Open.SubscriberID) * 100.0 / NULLIF(COUNT(DISTINCT _Sent.SubscriberID), 0), 2) AS Percentage_Open
+
+FROM _Sent
+LEFT JOIN _Open 
+    ON _Sent.JobID = _Open.JobID 
+    AND _Sent.ListID = _Open.ListID 
+    AND _Sent.BatchID = _Open.BatchID
+    AND _Sent.SubscriberID = _Open.SubscriberID
+    AND _Open.IsUnique = 1
+LEFT JOIN _Click 
+    ON _Sent.JobID = _Click.JobID 
+    AND _Sent.ListID = _Click.ListID 
+    AND _Sent.BatchID = _Click.BatchID
+    AND _Sent.SubscriberID = _Click.SubscriberID
+    AND _Click.IsUnique = 1
+LEFT JOIN _Bounce 
+    ON _Sent.JobID = _Bounce.JobID 
+    AND _Sent.ListID = _Bounce.ListID 
+    AND _Sent.BatchID = _Bounce.BatchID
+    AND _Sent.SubscriberID = _Bounce.SubscriberID
+LEFT JOIN _JourneyActivity
+    ON _Sent.TriggererSendDefinitionObjectID = _JourneyActivity.JourneyActivityObjectID
+LEFT JOIN _Journey 
+    ON _JourneyActivity.VersionID = _Journey.VersionID
+JOIN CMT_Update
+    ON _Sent.SubscriberKey = CMT_Update.SubscriberKey
+WHERE _Journey.JourneyName = 'CM_CMT_UPDATE'
+AND CMT_Update.Product_Title__c NOT LIKE '%test%'
+
+AND CAST(_Sent.EventDate AS DATE) BETWEEN CAST(GETDATE() - 1 AS DATE) AND CAST(GETDATE() AS DATE)
+GROUP BY CMT_Update.Product_Title__c, CMT_Update.CC, CMT_Update.BCC
