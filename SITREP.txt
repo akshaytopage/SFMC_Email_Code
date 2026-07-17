@@ -1,0 +1,65 @@
+{
+  "definitionKey": "CM_SITREP_API",
+"recipients": [
+    {
+      "attributes": {
+        "Is_Olivia__c": true,
+        "DL_Name__c": "N/A",
+        "Portal_Access__c": "No",
+	    "AMZ_Pluma_role__c": "Facility Management",
+        "Recipient_Type__c": "Distro List",
+        "CC": "dhamijat@amazon.com"
+      },
+      "to": "jatin.dhamija@accenture.com",
+      "contactKey": "003DS000014xpgUYAQ"
+      
+    }
+  ],
+
+  "attributes": {
+    "Impacted_Location_Names__c": "Hyderabad, IN",
+    "CMT_Date_Completed__c": "December 31, 2024",
+    "Employee_Communications__c": "Hello Communication",
+    "AWS_Data_Centers__c": "2",
+    "Site_Type__c": "Corporate",
+    "Operation_Sites__c": "2",
+    "Event_Updates__c": "event are been fined",
+    "Corporate_Sites__c": "2",
+    "CMT_Due_Date__c": "December 26, 2024",
+    "CMT_Date__c": "12/26/2024, 7:28 PM",
+    "Message_Content__c": "Conteny",
+    "CMT_Responsible_Team__c": "AMZ-Team",
+    "CMT_Action_Item__c": "Slack",
+    "Impacted_Site_Status__c": null,
+    "Impacted_Site_Detailss__c": "Working",
+    "Impacted_Site_Statuss__c": "Open",
+    "Hyperlink__c": "N/A",
+    "Event_Creation_Date__c": "2024-12-26 00:00:00",
+    "Additional_Resources__c": "",
+    "Impacted_Site_Names__c": "HYD11",
+    "Impacted_Site_Details__c": null,
+    "DEB_Event__c": null,
+    "Event_Date_Creation__c": "Thu, 26 December, 2024",
+    "Action_Details__c": null,
+    "Event_Date_and_Time_Local__c": "12/26/2024",
+    "Next_Meeting__c": "<p>Next meeting on 23rd</p>",
+    "Pluma_Event__c": "Hazmat",
+    "Last_Meeting__c": "<p>Last meeting complicated</p>",
+    "Expat_Current_Count__c": "8",
+    "Image_Description__c": "<p>hv image below with the </p>",
+    "Hyperlink_Description__c": "N/A",
+    "Location_Names__c": "Hyderabad, IN",
+    "International_Travellers_Current_Count__c": "1",
+    "Employee_Escalations__c": "0",
+    "Traveler_Current_Count__c": "5",
+    "Today_Date__c": "2024-12-27",
+    "Efforts_Undertaken__c": "Efforts Undertaken",
+    "Distribution__c": null,
+    "Projected_Realized_Impact__c": "Project impact on the following",
+    "Event_Date_Calendar__c": "2024-12-26 00:00:00",
+    "Government_Agency__c": "Government Ag",
+    "Event_Description__c": "Hi Event Des",
+    "Closest_Landmark__c": "Closest Landmark",
+    "Event_Creation_Time__c": "1400"
+  }
+}
